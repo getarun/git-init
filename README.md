@@ -1,6 +1,6 @@
 ### http://www.git-scm.com/book/en/v2/Git-Branching-Branching-Workflows 
 
-git init
+git init   ## init
 
 echo "asdfasdf">README.MD
 
@@ -14,7 +14,7 @@ git status
 
 git diff	#zeigt änderungen der letzten Bearbeitung 
 
-git diff --stage	#zeigt diese zur letzten 'commit'
+git diff --word-diff	#zeigt diese zur letzten 'commit'
 
 
 git commit 	#erzeugt commit -v for noted changes

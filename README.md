@@ -1,4 +1,4 @@
-#### http://www.git-scm.com/book/en/v2/Git-Branching-Branching-Workflows 
+### http://www.git-scm.com/book/en/v2/Git-Branching-Branching-Workflows 
 
 git init
 
@@ -6,7 +6,7 @@ echo "asdfasdf">README.MD
 
 git add README.MD		
 
-#Nimmt Datei ins 'commit'-index (staging-area) auf, nach bearbeitung wiederholen
+Nimmt Datei ins 'commit'-index (staging-area) auf, nach bearbeitung wiederholen
 
 
 

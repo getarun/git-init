@@ -71,3 +71,9 @@ git checkout testing	#wechselt nach testing
 vim README.MD	#irgendeine änderung
 
 git commit -a -m 'changes done are ...'
+
+
+
+git push origin :testing  #Löscht branch testing
+
+git branch -D testing #

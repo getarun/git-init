@@ -1,0 +1,15 @@
+[user]
+	email = zimmer@jzo.de
+	name = Zimmer-pi
+[merge]
+	ff = false
+[push]
+	default = matching
+
+# Use git and git+ssh instead of https
+[url "git://github.com/"]
+  insteadOf = https://github.com/
+[url "git@github.com:"]
+  pushInsteadOf = "git://github.com/"
+[url "git@github.com:"]
+  pushInsteadOf = "https://github.com/"

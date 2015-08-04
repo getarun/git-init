@@ -1,5 +1,5 @@
 #!/bin/bash
--*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 
 cp .gitconfig ~/.gitconfig
 

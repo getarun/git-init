@@ -1,12 +1,16 @@
 ### http://www.git-scm.com/book/en/v2/Git-Branching-Branching-Workflows 
+``sudo apt-get install gitg``   # great repo vievwe with diff etc.
 
-git init   ## init
-
-echo "asdfasdf">README.MD
-
-git add README.MD		
+``git init``   ## init
+``echo "asdfasdf">README.MD``
 
 Nimmt Datei ins 'commit'-index (staging-area) auf, nach bearbeitung wiederholen
+``git add README.MD``
+
+``git commit -a -m'first default commit' ``
+
+``git push``
+
 
 
 
@@ -64,7 +68,7 @@ git push v3.5	#
 
 
 
-git branch testing	#erzeugt einen neuen branch
+git branch -b testing	#erzeugt einen neuen branch
 
 git checkout testing	#wechselt nach testing
 
@@ -77,3 +81,6 @@ git commit -a -m 'changes done are ...'
 git push origin :testing  #Löscht branch testing
 
 git branch -D testing #
+
+``git merge dev`` #merged dev branch into activated branch
+``git mergetool`` to manually resolv merge issues

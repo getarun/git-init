@@ -1,9 +1,14 @@
 ### http://www.git-scm.com/book/en/v2/Git-Branching-Branching-Workflows 
 ``sudo apt-get install gitg``   # great repo vievwe with diff etc.
 
+#### Set username and Email first:
 ``$ git config --global user.name "John Doe"``
 
 ``$ git config --global user.email johndoe@example.com``
+
+####  Change used editor
+`` $ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession" ``
+
 
 ``git init``   ## init
 ``echo "asdfasdf">README.MD``

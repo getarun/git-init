@@ -12,6 +12,8 @@
 ##### Unixes
 ``$ git config --global core.editor emacs``
 
+#### Check settings:
+``$ git config --list``
 #### Start new repository
 ``git init``   ## init
 ``echo "asdfasdf">README.MD``
@@ -22,6 +24,7 @@ Nimmt Datei ins 'commit'-index (staging-area) auf, nach bearbeitung wiederholen
 ``git commit -a -m'first default commit' ``
 
 ``git push``
+
 
 
 

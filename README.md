@@ -7,9 +7,12 @@
 ``$ git config --global user.email johndoe@example.com``
 
 ####  Change used editor
+##### Windows
 `` $ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession" ``
+##### Unixes
+``$ git config --global core.editor emacs``
 
-
+#### Start new repository
 ``git init``   ## init
 ``echo "asdfasdf">README.MD``
 

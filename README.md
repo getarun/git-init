@@ -1,6 +1,10 @@
 ### http://www.git-scm.com/book/en/v2/Git-Branching-Branching-Workflows 
 ``sudo apt-get install gitg``   # great repo vievwe with diff etc.
 
+``$ git config --global user.name "John Doe"``
+
+``$ git config --global user.email johndoe@example.com``
+
 ``git init``   ## init
 ``echo "asdfasdf">README.MD``
 

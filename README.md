@@ -62,7 +62,7 @@ Nimmt Datei ins 'commit'-index (staging-area) auf, nach bearbeitung wiederholen
 ``git log --pretty="%h - %s" --author=getarun --since="2008-10-01" --before="2008-11-01" --no-merges``
 
 
-``git remote`` add https://github.com/paulboone/ticgit
+``git remote add https://github.com/paulboone/ticgit`` # Fügt git der remote liste hinzu (für up/download via push/pull), nur nötig wenn nicht mit ``git clone`` gearbeitet wurde.
 
 ``git pull``		# holt dateien aus allen remotes und merged in working-files
 
